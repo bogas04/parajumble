@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Parajumble</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="index.css" />
+  <style>
+    .details {
+      display: flex;
+      align-items: center;
+      width: 100%;
+    }
+    .details div {
+      max-width: 50%;
+    }
+  </style>
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <h2> Parajumble </h2>
+
+  <div class="details">
+    <div class="question">
+      <h4> Question </h3>
+        <ul class="question-lines"></ul>
+    </div>
+
+    <div class="original">
+      <h4>Original</h3>
+        <ul class="original-lines"></ul>
+    </div>
+  </div>
+
+  <h5 class="result"></h5>
+
+  <input type="text" class="input" placeholder="Enter input here. Eg 1,2,3,4" />
+
+  <button class="check">Check</button>
+</body>
+
+</html>
